@@ -1,5 +1,5 @@
 language: c
-install: 
+script: 
 	- make dep
 	- make
 compiler: gcc
