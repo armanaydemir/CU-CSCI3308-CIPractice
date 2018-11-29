@@ -1,5 +1,3 @@
 language: c
-script: 
-	- make dep
-	- make
+script: make dep && make test && make
 compiler: gcc
